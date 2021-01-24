@@ -1,0 +1,92 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*-------FIRST PAGE-------*/
+.bg
+ {
+	align-items: center;
+	border-radius: 10px;
+	background: lightyellow;
+	width: 250px;
+	height: 230px;
+	padding: 50px;
+	margin: 150px auto;
+ }
+.button-style
+ {
+	width: 150px;
+ }
+
+/*-------NAVIGATION BAR-------*/
+#nav-bar
+ {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+ }
+ .navbar-brand
+ {
+ 	height: 50px;
+ 	padding-left: 30px;
+ }
+ .navbar-nav li
+ {
+ 	padding : 0 10px;
+ }
+.navbar-nav li a
+ {
+ 	float: right
+ }
+ #nav-bar ul li a:hover
+ {
+ 	color: #FFD700!important;
+ }
+ .navbar
+ {
+ 	background: lightyellow
+ }
+ .navbar-toggler
+ {
+ 	border: none!important;
+ }
+ .nav-link
+ {
+ 	color: #555!important;
+ 	font-weight: 600;
+ 	font-size: 16px;
+ }
+
+/*-------LOGIN FORMS-------*/
+.login
+{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+#space1
+{
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#first, #last, #pan, #pwd, #income, #fname, #acc, #bank, #ifsc, #code, #fullname, #email, #wc, #city, #tax, #evc, #ip, #search, #bname
+{
+	width: 750px;
+	height: 40px;
+}
+
+/*-----LIST-----*/
+.listspace1
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+/*------DROP DOWN MENU------*/
+.dropdown-menu
+{
+	width: 300px;
+}
